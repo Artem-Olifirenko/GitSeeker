@@ -17,19 +17,20 @@ GitSeeker – это скрипт на Python, предназначенный д
 
 ```bash
 pip install requests
+```
 
 ### Установка
 
-Клонируйте репозиторий с помощью Git:
+Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/your-username/GitSeeker.git
+git clone https://github.com/Artem-Olifirenko/GitSeeker.git
 cd GitSeeker
 ```
 
 ### Настройка
 
-Для использования скрипта необходимо установить переменную окружения `GITHUB_ACCESS_TOKEN`:
+Установите переменную окружения `GITHUB_ACCESS_TOKEN`:
 
 ```bash
 export GITHUB_ACCESS_TOKEN=your_github_access_token
